@@ -1,0 +1,210 @@
+No "- 48"  on line 2 of serial read
+?îstart
+-= 1 =-
+dc
+49
+speed
+49
+t
+19
+-= 2 =-
+dc
+50
+speed
+50
+t
+20
+-= 3 =-
+dc
+51
+speed
+51
+t
+20
+with "- 48" on line 2 of serial read
+
+ñstart
+-= 1 =-
+dc
+1
+speed
+1
+t
+0
+
+-= 2 =-
+dc
+2
+speed
+2
+t
+0
+
+-= 3 =- Starts High
+dc
+3
+speed
+3
+t
+1
+
+-= 4 =-
+dc
+4
+speed
+4
+t
+1
+
+-= 99 =-
+dc
+9
+speed
+9
+t
+3
+dc
+9
+speed
+9
+t
+3
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ îstart
+dc
+9
+speed
+9
+t
+3
+
+dc
+9
+speed
+9
+t
+3
+
+dc
+65501
+speed
+4294967261
+t
+641
+===========================================================
+ùÅstart
+>>>>>>> p
+dc
+64
+speed
+64
+t
+25
+
+>>>>>>> o
+dc
+63
+speed
+63
+t
+25
+
+>>>>>>> i
+dc
+57
+speed
+57
+t
+22
+
+>>>>>>> a
+dc
+49
+speed
+49
+t
+19
+
+>>>>>>> z
+dc
+74
+speed
+74
+t
+29
+
+>>>>>>> [
+dc
+43
+speed
+43
+t
+17
+
+>>>>>>> P
+dc
+32
+speed
+32
+t
+12
+
+
+?>>>>>>> O
+dc
+31
+speed
+31
+t
+12
+
+>>>>>>> I
+dc
+25
+speed
+25
+t
+10
+
+>>>>>>> A
+dc
+17
+speed
+17
+t
+6
+
+>>>>>>> Z
+dc
+42
+speed
+42
+t
+16
+
+>>>>>>> {
+dc
+75
+speed
+75
+t
+30
+
+>>>>>>> u
+dc
+69
+speed
+69
+t
+27
+
+>>>>>>> U
+dc
+37
+speed
+37
+t
+14
