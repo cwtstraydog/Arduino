@@ -1,0 +1,33 @@
+    HPQNETPROXY = "PROXY proxy-txn.austin.hp.com:8080; PROXY proxy.houston.hp.com:8080";
+    HPPROXY1 = "PROXY proxy-txn.austin.hp.com:8080";
+
+
+//set proxy
+git config --global http.proxy http://americas\jemig:password@proxy.houston.hp.com:8080
+
+
+git remote add origin git@github.com:{username}/{projectname}.git
+
+
+    $ git init
+
+    $ git add .
+
+    $ git remote add origin https://github.com/cwtstraydog/visualstudio.git
+
+    $ git remote add origin https://github.com/cwtstraydog/Arduino.git
+
+    $ git commit -m "Initial version"
+
+    $ git push origin master
+
+
+
+
+
+//Undo proxy
+git config --global --unset http.proxy
+
+
+//clone
+git clone https://github.com/cwtstraydog/Arduino.git
