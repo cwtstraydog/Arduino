@@ -98,7 +98,7 @@ TCCR2A = _BV(COM2A1) | _BV(COM2B1) | _BV(WGM20); // init timer0 configure for fa
  pinMode(pin5,INPUT);  //Signal To turn on TM
   pinMode(pin6,INPUT);  //Signal to turn on Stir
    pinMode(pin8,INPUT); //Signal to display time
-    pinMode(pin9,INPUT); //Control for stirplate PWM  as stirplate control
+    pinMode(pin9,INPUT); //signal to turn on Stir controlled by varible Knob
  pinMode(TimeRelay1Pin4, OUTPUT);  //turn on TM Motor
   pinMode(StirRelay2Pin7, OUTPUT);  //Turn on Stir motor
   
@@ -226,7 +226,13 @@ if (digitalRead(pin5)==HIGH) {  // Turn on Time Machine
                                    Use a varible resitor (VR) to tell the PWM the speed wire the VR as a voltage divider
                                    as the voltage read changes so does the speed.
                                    
-                                   
+                                   o to 5v 0 to 1023
+                                   fan speeds are 0 255
+                                   .25 pwm per increment
+                                   ==========
+                                   .05V per increment
+                                   ==========
+                                   .2v(200mv) = 1 PWM
                                    
                                    */
                                    

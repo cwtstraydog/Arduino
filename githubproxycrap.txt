@@ -17,7 +17,7 @@ git remote add origin git@github.com:{username}/{projectname}.git
 
     $ git remote add origin https://github.com/cwtstraydog/Arduino.git
 
-    $ git commit -m "Initial version"
+    $ git commit -m "10/15/2015"
 
     $ git push origin master
 
